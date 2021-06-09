@@ -1,0 +1,18 @@
+package com.springxmlannotations.bean;
+
+import java.io.Serializable;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class Bharath implements Serializable{
+
+	private String name;
+	
+	public Bharath() {
+		
+	}
+	private Lover lov;
+}

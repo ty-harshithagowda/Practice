@@ -1,0 +1,19 @@
+package com.te.bean;
+
+import java.io.Serializable;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class Project implements Serializable {
+
+	private int pid;
+	private String name;
+
+	public Project() {
+
+	}
+	private Technology tech;
+}

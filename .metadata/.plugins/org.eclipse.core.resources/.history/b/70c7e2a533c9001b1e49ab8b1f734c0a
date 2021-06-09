@@ -1,0 +1,35 @@
+package com.te.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.te.bean.Technology;
+
+@Configuration
+public class TechnologyConfig {
+
+	@Bean
+	public Technology getTech() {
+		Technology t=new Technology();
+		t.setTechid(1);
+		t.setTechname("java");
+		return t;
+		
+}
+	@Bean
+	public Technology getTech1() {
+		Technology t=new Technology();
+		t.setTechid(1);
+		t.setTechname("python");
+		return t;
+		
+}
+	@Bean
+	public Technology getTech2() {
+		Technology t=new Technology();
+		t.setTechid(1);
+		t.setTechname("js");
+		return t;
+		
+}
+}

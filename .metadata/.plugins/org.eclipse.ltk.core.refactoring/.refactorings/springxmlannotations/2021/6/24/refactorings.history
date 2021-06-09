@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;springxmlannotations/src/main/java/lover.xml&apos; to &apos;bharath.xml&apos;" description="Rename resource &apos;lover.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/lover.xml" name="bharath.xml" stamp="1623254338845" updateReferences="true"/>
+</session>

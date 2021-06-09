@@ -1,0 +1,21 @@
+package com.te.bean;
+
+import java.io.Serializable;
+import org.springframework.beans.factory.annotation.Autowired;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class Project implements Serializable {
+
+	private int pid;
+	private String name;
+
+	public Project() {
+
+	}
+
+	@Autowired
+	private Technology tech;
+}
